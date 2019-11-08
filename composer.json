@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "mvc\\": "vendor/",
+            "app\\": "mvc"
+        }
+    },
+    "require": {
+        "catfan/medoo": "^1.7",
+        "phroute/phroute": "^2.1",
+        "klein/klein": "^2.1"
+    }
+}
